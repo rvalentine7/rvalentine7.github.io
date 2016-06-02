@@ -1,0 +1,191 @@
+/*
+Theme
+Pale Yellow: F2E8B6
+Dark Gold:  BCA438
+Light Blue:  699ECC
+Medium Blue:  3A5997
+Dark Blue:  394E6C
+
+PDF: <embed src="Richard Valentine Resume.pdf" width="800px" height="1000px">
+*/
+
+.header {
+	border-bottom: 1px solid #d5d5d5;
+	overflow: auto;
+}
+.name {
+	float: left;
+	width: 40%;
+}
+.buttons {
+	float: right;
+}
+hr {
+	border-top: 1px solid #d5d5d5;
+}
+body {
+	/*background-color: #F2E8B6;*/
+    margin: 30px auto;
+	padding: 0;
+	width: 70%;
+}
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+	text-align: left;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+	font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+h2 {
+	font-size: 2em;
+	font-family:'Helvetica';
+}
+h3 {
+	font-size: 1.5em;
+	font-family: 'Helvetica';
+	padding: 0;
+	margin: 0;
+}
+p {
+	font-family: 'Helvetica';
+    font-size: 1.5em;
+    color: #333;
+	text-indent: 2.0em;
+	text-align: left;
+}
+.p2 {
+	font-family: 'Helvetica';
+	display: inline-block;
+    font-size: 1.5em;
+    color: #333;
+}
+footer {
+    font-size: .8em;
+}
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 2em;
+}
+ul.posts li {
+    list-style: none;
+}
+.button {
+    border: 2px solid #3A5997;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	margin-bottom: 12px;
+	float: right;
+	margin-right: 5px;
+}
+.button:hover {
+	background-color: #699ECC;
+	text-decoration: none;
+}
+.currentButton {
+	border: 2px solid #3A5997;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	margin-bottom: 12px;
+	float: right;
+	margin-right: 5px;
+	background-color: #3A5997;
+	color: white;
+}
+.currentButton:hover {
+	text-decoration:none;
+}
+.resume {
+	width: 80%;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.project {
+	padding: 15px 32px;
+	border-bottom: 1px solid #d5d5d5;
+	height: auto;
+	overflow: auto;
+	text-align: center;
+}
+.content {
+	display: inline-block;
+	vertical-align: top;
+	width: 560px;
+	padding: 5px;
+	margin: 0 auto;
+}
+.media {
+	display: block;
+	margin: 0 auto;
+}
+.information {
+	display: inline-block;
+	vertical-align: top;
+	width: 560px;
+	border: 2px solid #3A5997;
+	border-radius:  10px;
+	padding: 12px;
+	margin: 0 auto;
+}
+.infoContainer {
+	display: inline-block;
+	vertical-align: top;
+	padding: 5px;
+	margin: 0 auto;
+}
+.listText {
+	
+	font-family: 'Helvetica';
+	font-size: 1.2em;
+}
+.picture {
+	display: inline-block;
+	vertical-align: top;
+	width: 500px;
+	height: 360px;
+	padding: 150px 20px;
+	margin: 0 auto;
+}
+.about {
+	border: 2px solid #3A5997;
+	border-radius:  10px;
+	text-align: left;
+	display: inline-block;
+	vertical-align: top;
+	width: 500px;
+	padding: 12px 20px;
+	margin: 0 auto;
+}
+.home {
+	padding: 32px 32px;
+	height: auto;
+	overflow: auto;
+	text-align: center;
+}
+.container {
+	display: inline-block;
+	vertical-align: top;
+	padding: 12px 20px;
+	margin: 0 auto;
+}
