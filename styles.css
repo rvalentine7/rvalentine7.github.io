@@ -1,15 +1,6 @@
-/*
-Theme
-Pale Yellow: F2E8B6
-Dark Gold:  BCA438
-Light Blue:  699ECC
-Medium Blue:  3A5997
-Dark Blue:  394E6C
-
-PDF: <embed src="Richard Valentine Resume.pdf" width="800px" height="1000px">
-*/
-
 .header {
+	margin: 0 auto;
+	width: 80%;
 	border-bottom: 1px solid #d5d5d5;
 	overflow: auto;
 }
@@ -24,10 +15,9 @@ hr {
 	border-top: 1px solid #d5d5d5;
 }
 body {
-	/*background-color: #F2E8B6;*/
     margin: 30px auto;
 	padding: 0;
-	width: 70%;
+	width: 100%;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -74,6 +64,8 @@ p {
     color: #333;
 }
 footer {
+	width: 70%;
+	margin: 0 auto;
     font-size: .8em;
 }
 ul.posts { 
@@ -116,17 +108,21 @@ ul.posts li {
 	text-decoration:none;
 }
 .resume {
-	width: 80%;
+	width: 65%;
 	margin-top: 30px;
 	margin-left: auto;
 	margin-right: auto;
 }
 .project {
 	padding: 15px 32px;
-	border-bottom: 1px solid #d5d5d5;
 	height: auto;
 	overflow: auto;
 	text-align: center;
+}
+.break {
+	width: 70%;
+	border-bottom: 1px solid #d5d5d5;
+	margin: 0 auto;
 }
 .content {
 	display: inline-block;
