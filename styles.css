@@ -1,28 +1,68 @@
-.top {
-	background-color: #3A5997;
-	border-bottom: 5px solid #699ECC;
+/*The container for everything on the page*/
+#pageContainer {
+	min-height:100%;
+	position:relative;
+	background-color: #FFFAE4;
 }
+/*Styling for the overall page*/
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+/*The overall container for the header*/
+.top {
+	background-color: #26393D;
+	border-bottom: 5px solid #40627C;
+	/*padding:10px;*/
+}
+/*Holds my name and website navigation*/
 .header {
 	margin: 0 auto;
 	width: 80%;
 	overflow: auto;
 }
+/*Styling for my name in the header*/
 .name {
-	color: #FFFFFF;
+	color: #FFFAE4;
 	float: left;
 	width: 40%;
 }
+/*Styling for the buttons in the header*/
 .buttons {
 	float: right;
 }
+/*The main section of each page*/
+#body {
+	background-color: #FFFAE4;
+    margin: 0;
+	padding-bottom: 60px;
+}
+/*The background for the bottom*/
+footer {
+	border-top: 5px solid #40627C;
+	background-color: #26393D;
+	position: absolute;
+	bottom: 0;
+	height: 50px;
+	width: 100%;
+}
+/*The text in the footer*/
+.bottom {
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+	padding-top: 10px;
+	font-family: 'Helvetica';
+    color: #FFFAE4;
+	text-indent: 2.0em;
+	text-align: center;
+    font-size: 1em;
+	
+	bottom: 0;
+	height: center;
+}
 hr {
 	border-top: 1px solid #d5d5d5;
-}
-body {
-    background-color: #F2E8B6;
-    margin: 0px auto;
-	padding: 0;
-	width: 100%;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -68,20 +108,6 @@ p {
     font-size: 1.5em;
     color: #333;
 }
-footer {
-	border-top: 5px solid #699ECC;
-	background-color: #3A5997;
-}
-.bottom {
-	width: 70%;
-	margin: 0px auto;
-	padding: 10px;
-	font-family: 'Helvetica';
-    color: #FFFFFF;
-	text-indent: 2.0em;
-	text-align: center;
-    font-size: 1em;
-}
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 2em;
@@ -89,9 +115,10 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+/*The buttons for going to other pages*/
 .button {
-    border: 2px solid #699ECC;
-	background-color: #FFFFFF;
+	border-radius: 12px;
+	background-color: #E8E595;
     color: black;
     padding: 15px 32px;
     text-align: center;
@@ -102,12 +129,14 @@ ul.posts li {
 	float: right;
 	margin-right: 5px;
 }
+/*The change in appearance of the buttons*/
 .button:hover {
-	background-color: #699ECC;
+	background-color: #D0A825;
 	text-decoration: none;
 }
+/*The button for the current page*/
 .currentButton {
-	border: 2px solid #699ECC;
+	border-radius: 12px;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -116,17 +145,26 @@ ul.posts li {
 	margin-bottom: 12px;
 	float: right;
 	margin-right: 5px;
-	background-color: #3A5997;
-	color: white;
+	background-color: #D0A825;
+	color: #FFFAE4;
 }
+/*The change in appearance of the current button*/
 .currentButton:hover {
 	text-decoration:none;
 }
+/*The styling for my resume on the resume page*/
 .resume {
 	width: 65%;
 	margin-top: 30px;
 	margin-left: auto;
 	margin-right: auto;
+	padding: 10px;
+	padding-bottom: 70px;
+	background-color: #FFFAE4;
+}
+/*Creating space on the left for work experience in my resume*/
+.tab {
+	margin-left: 3em;
 }
 .project {
 	padding: 15px 32px;
@@ -136,7 +174,7 @@ ul.posts li {
 }
 .break {
 	width: 70%;
-	border-bottom: 1px solid #699ECC;
+	border-bottom: 1px solid #40627C;
 	margin: 0 auto;
 }
 .content {
