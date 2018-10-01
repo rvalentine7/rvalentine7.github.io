@@ -74,10 +74,12 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+/*Link styling*/
 a {
     text-decoration: none;
 	text-align: left;
 }
+/*Styling for hovering over links*/
 a:hover {
     text-decoration: underline;
 }
@@ -89,12 +91,14 @@ h2 {
 	font-size: 2em;
 	font-family:'Helvetica';
 }
+/*Category title in my resume*/
 h3 {
 	font-size: 1.5em;
 	font-family: 'Helvetica';
 	padding: 0;
 	margin: 0;
 }
+/*Styling for the text in my about me*/
 p {
 	font-family: 'Helvetica';
     font-size: 1.5em;
@@ -102,6 +106,7 @@ p {
 	text-indent: 2.0em;
 	text-align: left;
 }
+/*Styling for my email on the home page*/
 .p2 {
 	font-family: 'Helvetica';
 	display: inline-block;
@@ -166,20 +171,23 @@ ul.posts li {
 .tab {
 	margin-left: 3em;
 }
+/*The container for my projects on the projects page*/
 .project {
 	padding: 15px 32px;
 	height: auto;
 	overflow: auto;
 	text-align: center;
 }
+/*The line separating projects on the projects page*/
 .break {
 	width: 70%;
 	border-bottom: 1px solid #40627C;
 	margin: 0 auto;
 }
+/*Styling for the video embeds*/
 .content {
 	display: inline-block;
-	vertical-align: top;
+	vertical-align: center;
 	width: 560px;
 	padding: 5px;
 	margin: 0 auto;
@@ -188,6 +196,7 @@ ul.posts li {
 	display: block;
 	margin: 0 auto;
 }
+/*The styling for the text describing my projects on the projects page*/
 .information {
 	vertical-align: top;
 	width: 560px;
@@ -195,17 +204,20 @@ ul.posts li {
 	padding-right: 12px;
 	margin: 0 auto;
 }
+/*The container for describing my projects on the projects page*/
 .infoContainer {
 	display: inline-block;
 	vertical-align: top;
 	padding: 5px;
 	margin: 0 auto;
 }
+/*The text for the lists on my resume*/
 .listText {
 	
 	font-family: 'Helvetica';
 	font-size: 1.2em;
 }
+/*Picture of me on the home page*/
 .picture {
 	display: inline-block;
 	vertical-align: top;
@@ -214,6 +226,7 @@ ul.posts li {
 	padding: 15px 20px;
 	margin: 0 auto;
 }
+/*About me text on the home page*/
 .about {
 	text-align: left;
 	display: inline-block;
@@ -222,12 +235,14 @@ ul.posts li {
 	padding: 12px 20px;
 	margin: 0 auto;
 }
+/*Container for my picture and about me section on the home page*/
 .home {
 	padding: 32px 32px;
 	height: auto;
 	overflow: auto;
 	text-align: center;
 }
+/*Container for the about me section on the home page*/
 .container {
 	display: inline-block;
 	vertical-align: top;
